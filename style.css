@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #FAFAFA;
+    font-family: Arial;
+    font-size: 30px;
+    color: #333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    grid-gap: 2px;
+    grid-template-columns: repeat(200, 40px);
+    grid-template-rows: repeat(200, 40px);
+}
+
+.grid-container>div {
+    box-shadow: 0 0 2px #AD4444;
+}
